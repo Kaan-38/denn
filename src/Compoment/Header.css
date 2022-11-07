@@ -240,6 +240,9 @@
         font-size: 12px;
     }
     .HeaderContainerLogin h3 {
+        margin: 3.5px;
+    }
+    .HeaderContainerLogin h3 {
         width: 68px;
         font-size: 10px;
     }
@@ -279,7 +282,6 @@
     }
 }
 @media only screen and (max-width:480px) {
-
     .HeaderContainerLogo img {
         width:40px;
         height: 40px;
@@ -287,6 +289,9 @@
     .HeaderContainerLogo h1 {
         font-size: 9px;
         height: 36px;
+    }
+    .HeaderContainerLogin h3 {
+        margin: 2px;
     }
     .HeaderContainerLogin h3 {
         width: 60px;
@@ -305,5 +310,34 @@
     }
     .icon-navbar-container .icon-navbar {
         font-size: 15px;
+    }
+}
+@media only screen and (max-width:436px) {
+
+    .HeaderContainerLogo img {
+        width:40px;
+        height: 40px;
+    }
+    .HeaderContainerLogo h1 {
+        font-size: 9px;
+        height: 36px;
+    }
+    .HeaderContainerLogin h3 {
+        width: 58px;
+        height: 30px;
+        font-size: 7.5px;
+    }
+    .HeaderContainerSocialMedia span {
+        margin: 1.5px;
+    }
+    .HeaderContainerSocialMedia span .icon {
+        font-size: 22px;
+    }
+    .icon-navbar-container {
+        width:23px;
+        height: 23px;
+    }
+    .icon-navbar-container .icon-navbar {
+        font-size: 14px;
     }
 }
