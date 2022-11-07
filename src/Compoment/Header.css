@@ -221,14 +221,14 @@
         margin: 3px;
     }
     .HeaderContainerSocialMedia span .icon {
-        font-size: 25px;
+        font-size: 26px;
     }
     .icon-navbar-container {
-        width:26px;
-        height: 26px;
+        width:28px;
+        height: 28px;
     }
     .icon-navbar-container .icon-navbar {
-        font-size: 16px;
+        font-size: 17px;
     }
 }
 @media only screen and (max-width:546px) {
@@ -244,14 +244,14 @@
         font-size: 10px;
     }
     .HeaderContainerSocialMedia span .icon {
-        font-size: 23px;
+        font-size: 26px;
     }
     .icon-navbar-container {
-        width:23px;
-        height: 23px;
+        width:28px;
+        height: 28px;
     }
     .icon-navbar-container .icon-navbar {
-        font-size: 15px;
+        font-size: 17px;
     }
 }
 
@@ -268,14 +268,14 @@
         font-size: 9.5px;
     }
     .HeaderContainerSocialMedia span .icon {
-        font-size: 21px;
+        font-size: 26px;
     }
     .icon-navbar-container {
-        width:22px;
-        height: 22px;
+        width:28px;
+        height: 28px;
     }
     .icon-navbar-container .icon-navbar {
-        font-size: 15px;
+        font-size: 17px;
     }
 }
 @media only screen and (max-width:480px) {
@@ -297,13 +297,13 @@
         margin: 1.5px;
     }
     .HeaderContainerSocialMedia span .icon {
-        font-size: 18.5px;
+        font-size: 23px;
     }
     .icon-navbar-container {
-        width:20px;
-        height: 20px;
+        width:24px;
+        height: 24px;
     }
     .icon-navbar-container .icon-navbar {
-        font-size: 12px;
+        font-size: 15px;
     }
 }
