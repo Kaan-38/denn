@@ -325,19 +325,48 @@
     .HeaderContainerLogin h3 {
         width: 58px;
         height: 30px;
-        font-size: 7.5px;
+        font-size: 7px;
     }
     .HeaderContainerSocialMedia span {
         margin: 1.5px;
     }
     .HeaderContainerSocialMedia span .icon {
-        font-size: 22px;
+        font-size: 21px;
     }
     .icon-navbar-container {
-        width:23px;
-        height: 23px;
+        width:22px;
+        height: 22px;
     }
     .icon-navbar-container .icon-navbar {
         font-size: 14px;
+    }
+}
+@media only screen and (max-width:418px) {
+
+    .HeaderContainerLogo img {
+        width:40px;
+        height: 40px;
+    }
+    .HeaderContainerLogo h1 {
+        font-size: 8.5px;
+        height: 36px;
+    }
+    .HeaderContainerLogin h3 {
+        width: 58px;
+        height: 30px;
+        font-size: 7px;
+    }
+    .HeaderContainerSocialMedia span {
+        margin: 1.5px;
+    }
+    .HeaderContainerSocialMedia span .icon {
+        font-size: 20.5px;
+    }
+    .icon-navbar-container {
+        width:21px;
+        height: 21px;
+    }
+    .icon-navbar-container .icon-navbar {
+        font-size: 13.5px;
     }
 }
