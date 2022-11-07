@@ -1,7 +1,7 @@
 import React from 'react'
 import './Header.css'
-import { FaTwitter } from 'react-icons/fa'
-
+import { FaTwitter, FaInstagram, FaWhatsapp, FaTelegram} from 'react-icons/fa'
+import { BsThreeDotsVertical } from 'react-icons/bs'
 const Header = ( { navbaropen, setNavbaropen } ) => {
   return (
     <div className='HeaderContainer'>
@@ -24,6 +24,22 @@ const Header = ( { navbaropen, setNavbaropen } ) => {
          <div className='HeaderContainerSocialMedia'>
            <span>
               <FaTwitter className='icon' />
+           </span>
+
+           <span>
+              <FaInstagram className='icon' />
+           </span>
+
+           <span>
+              <FaWhatsapp className='icon' />
+           </span>
+
+           <span>
+              <FaTelegram className='icon' />
+           </span>
+
+           <span className='icon-navbar-container' onClick={(() => setNavbaropen(!navbaropen))}>
+              <BsThreeDotsVertical className={`icon-navbar ${navbaropen == true ? 'active' : '' } `} />
            </span>
          </div>
     </div>
