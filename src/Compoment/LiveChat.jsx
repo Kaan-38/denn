@@ -1,7 +1,7 @@
 import React from 'react'
 import './LiveChat.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import {  faMessage } from '@fortawesome/free-solid-svg-icons'
 const LiveChat = () => {
   return (
     <div className='LiveChatContainer'>
@@ -12,7 +12,7 @@ const LiveChat = () => {
         </div>
 
         <div className='LiveChatContainerİcon'>
-        <FontAwesomeIcon icon={faCoffee} className='icon' />
+        <FontAwesomeIcon icon={faMessage} className='icon' />
         </div>
     </div>
   )

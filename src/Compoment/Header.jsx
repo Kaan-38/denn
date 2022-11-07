@@ -1,5 +1,6 @@
 import React from 'react'
 import './Header.css'
+import { FaTwitter } from 'react-icons/fa'
 
 const Header = ( { navbaropen, setNavbaropen } ) => {
   return (
@@ -21,7 +22,9 @@ const Header = ( { navbaropen, setNavbaropen } ) => {
          </div>
 
          <div className='HeaderContainerSocialMedia'>
-            
+           <span>
+              <FaTwitter className='icon' />
+           </span>
          </div>
     </div>
   )
