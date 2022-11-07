@@ -217,6 +217,9 @@
         font-size: 10px;
         left: 10px;
     }
+    .HeaderContainerSocialMedia span {
+        margin: 3px;
+    }
     .HeaderContainerSocialMedia span .icon {
         font-size: 25px;
     }
@@ -237,8 +240,8 @@
         font-size: 12px;
     }
     .HeaderContainerLogin h3 {
-        width: 60px;
-        font-size: 8px;
+        width: 68px;
+        font-size: 10px;
     }
     .HeaderContainerSocialMedia span .icon {
         font-size: 23px;
@@ -261,8 +264,8 @@
         font-size: 11px;
     }
     .HeaderContainerLogin h3 {
-        width: 52px;
-        font-size: 7px;
+        width: 66px;
+        font-size: 9.5px;
     }
     .HeaderContainerSocialMedia span .icon {
         font-size: 21px;
@@ -286,12 +289,15 @@
         height: 36px;
     }
     .HeaderContainerLogin h3 {
-        width: 42px;
+        width: 60px;
         height: 30px;
-        font-size: 4.5px;
+        font-size: 8px;
+    }
+    .HeaderContainerSocialMedia span {
+        margin: 1.5px;
     }
     .HeaderContainerSocialMedia span .icon {
-        font-size: 17.5px;
+        font-size: 18.5px;
     }
     .icon-navbar-container {
         width:20px;
