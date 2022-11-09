@@ -87,7 +87,12 @@
     transform: scale(1.02);
     letter-spacing: 0.4px;
 }
-
+.HeaderContainerLogin  a {
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-decoration: none;;
+}
 .HeaderContainerSocialMedia {
     position: relative;
     display: flex;

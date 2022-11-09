@@ -39,6 +39,9 @@
     border-radius: 3px;
     top: 12px;
 }
+.ContainerNavbar .navbar-name a {
+  text-decoration: none;
+}
 .ContainerNavbar .navbar-name h1 {
     color: white;
     text-shadow: 0 0 2px white;
@@ -56,6 +59,14 @@
     margin-bottom: 8px;
     top: 26px;
     border-bottom: 5px solid #477ac4;
+}
+.ContainerNavbar li a {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
 }
 .ContainerNavbar li:hover {
     background-color: white;
